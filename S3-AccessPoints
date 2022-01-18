@@ -7,7 +7,10 @@
                 "AWS": "*"
             },
             "Action": "*",
-            "Resource": "arn:aws:s3:::aws-s3-tst-bucket1",
+            "Resource": [
+            "arn:aws:s3:::aws-s3-tst-bucket1",
+            "arn:aws:s3:::aws-s3-tst-bucket1/*"
+            ],
             "Condition": {
                 "StringEquals": {
                     "s3:DataAccessPointAccount": "424336190255"
