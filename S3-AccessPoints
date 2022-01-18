@@ -10,7 +10,7 @@
             "Resource": "arn:aws:s3:::aws-s3-tst-bucket1",
             "Condition": {
                 "StringEquals": {
-                    "s3:DataAccessPointAccount": "424336190255a"
+                    "s3:DataAccessPointAccount": "424336190255"
                 }
             }
         }
